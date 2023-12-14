@@ -1,9 +1,8 @@
 
 library(tidyverse)
-
 source("code/scripts/utility_functions.R")
 
-
+# Reading csv file
 data <- read_csv("data/raw/iris.csv")
 cleaned_data <- preprocess_data(data)
 
